@@ -1,3 +1,9 @@
+## All Terminal Commands
+
+1. npx create-next-app@latest trello-cwa
+2. npx shadcn-ui@latest init
+3. npx shadcn-ui@latest add button
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
