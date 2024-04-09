@@ -3,6 +3,26 @@
 1. npx create-next-app@latest trello-cwa
 2. npx shadcn-ui@latest init
 3. npx shadcn-ui@latest add button
+4. npm install @clerk/nextjs
+5. npm install usehooks-ts
+6. npx shadcn-ui@latest add skeleton
+7. npx shadcn-ui@latest add accordion
+8. npx shadcn-ui@latest add separator
+9. npm i zustand
+10. npx shadcn-ui@latest add sheet
+
+## 5. Clerk Setup
+
+1. Install Clerk
+2. Setup the Env Keys
+3. Add ClerkProvider
+4. Create a Middleware
+5. Create Sign-up and Sign-in Pages
+
+## 9 Zustand Setup
+
+1. Install
+2. Setup the hooks - use-x.ts
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
