@@ -12,9 +12,14 @@
 10. npx shadcn-ui@latest add sheet
 11. npm i -D prisma
 12. npx prisma init
-13. (maybe trying with Xata) npm install @prisma/adapter-pg pg
-14. (maybe trying supabase) npm install dotenv postgres tsx
-15. npm install @supabase/auth-helpers-nextjs @supabase/supabase-js
+13. (maybe trying with Xata) npm install @prisma/adapter-pg pg - failed
+14. (maybe trying supabase) npm install dotenv postgres tsx - failed
+15. (failed) npm install @supabase/auth-helpers-nextjs @supabase/supabase-js - failed
+16. succeeded with MySql DB via Aiven
+17. npx prisma db push
+18. npx prisma studio
+19. npm install @prisma/client
+20. npm i zod
 
 ## 5. Clerk Setup
 
@@ -28,6 +33,17 @@
 
 1. Install
 2. Setup the hooks - use-x.ts
+
+## 16 DB setup
+
+1. DB Provider - https://aiven.io/ #Steps
+2. Make an account with Aiven for MySQL and create a DB
+3. Add the Service URI at the DB_URL at .env file
+4. npx prisma generate
+5. Check deployment status and wait for it to turn from Rebuilding status to Running
+6. Wait for one successful event log with Aiven
+7. npx prisma db push
+8. npx prisma studio
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
