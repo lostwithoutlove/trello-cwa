@@ -10,6 +10,11 @@
 8. npx shadcn-ui@latest add separator
 9. npm i zustand
 10. npx shadcn-ui@latest add sheet
+11. npm i -D prisma
+12. npx prisma init
+13. (maybe trying with Xata) npm install @prisma/adapter-pg pg
+14. (maybe trying supabase) npm install dotenv postgres tsx
+15. npm install @supabase/auth-helpers-nextjs @supabase/supabase-js
 
 ## 5. Clerk Setup
 
